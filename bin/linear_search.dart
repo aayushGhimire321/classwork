@@ -1,20 +1,21 @@
-void main(){
-  List<int> arr =[1,2,3,4,5,6];
-  int searchValue;
-  lineraSearch(arr, searchValue);
+void main() {
+  List<int> arr = [1, 23, 434, 64, 656, 76];
+  linearSearch(arr, 76);
 }
-void linearSearch(List<int> arr, int searchValue){
-  bool flag = false;
-  for(int i=0; i, arr.length; i++){
-    if (searchValue == arr[i]){
-      flag = true;
+
+void linearSearch(List<int> arr, int searchValue) {
+  bool a = false;
+  for (int i in arr) {
+    if (i == searchValue) {
+      a = true;
       break;
+    } else {
+      a = false;
     }
   }
-  if(flag){
+  if (a) {
     print("found");
-  }
-  else{
-    print("not Found")
+  } else {
+    print("not found");
   }
 }
