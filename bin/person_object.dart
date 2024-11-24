@@ -1,9 +1,9 @@
 void main(){
     final person1 = Person(firstName: "Kiran", lastName: "Rana", age:22);
-    final person2 = Person(firstName: "Salman", lastName: "Khan", age:22);
-    final person3 = Person(firstName: "Katrina", lastName: "Kaif", age:22);
-    final person4 = Person(firstName: "Vicky", lastName: "Kaushal", age:22);
-    final person5 = Person(firstName: "Dahayang", lastName: "Rai", age:22);
+    final person2 = Person(firstName: "Salman", lastName: "Khan", age:55);
+    final person3 = Person(firstName: "Katrina", lastName: "Kaif", age:10;
+    final person4 = Person(firstName: "Vicky", lastName: "Kaushal", age:20);
+    final person5 = Person(firstName: "Dahayang", lastName: "Rai", age:39);
 
     //add person objectys to list
     List<Person> lstPErson = [];
